@@ -23,4 +23,12 @@ public class Nodo <T>{
     public void setSig(Nodo<T> sig) {
         this.sig = sig;
     }
+
+    @Override
+    public String toString() {
+        return "Nodo{" +
+                "info=" + info +
+                ", sig=" + sig +
+                '}';
+    }
 }
